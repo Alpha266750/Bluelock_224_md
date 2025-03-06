@@ -517,12 +517,12 @@ ovl.ev.on("connection.update", async (con) => {
             }
         }
         delay(700);
-      let start_msg = `╭────《 OVL-MD 》─────⊷
+      let start_msg = `╭────《 Blulock224-MD 》─────⊷
 ⫸  *Préfixe*       : ${prefixe}
 ⫸  *Mode*          : ${config.MODE}
 ⫸  *Commandes*     : ${evt.cmd.length}
 
-             𝙈𝙖𝙙𝙚 𝙗𝙮 Ainz`;
+             𝙈𝙖𝙙𝙚 𝙗𝙮 Sept`;
      if (ovl.user && ovl.user.id) {
         await ovl.sendMessage(ovl.user.id, { text: start_msg }); 
      }
